@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-14T12:27:29 IST" name="Suite" finished-at="2025-08-14T12:28:42 IST" duration-ms="73213">
+    <groups>
+    </groups>
+    <test started-at="2025-08-14T12:27:29 IST" name="EdgeTest" finished-at="2025-08-14T12:28:27 IST" duration-ms="57673">
+      <class name="MiniProject.Testing">
+        <test-method is-config="true" signature="createdriver(java.lang.String,java.lang.String)[pri:0, instance:MiniProject.Testing@3c3d9b6b]" started-at="2025-08-14T12:27:29 IST" name="createdriver" finished-at="2025-08-14T12:27:41 IST" duration-ms="11545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.yatra.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createdriver -->
+        <test-method signature="homePage()[pri:1, instance:MiniProject.Testing@3c3d9b6b]" started-at="2025-08-14T12:27:41 IST" name="homePage" finished-at="2025-08-14T12:28:13 IST" duration-ms="32319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="verifyOfferPageTitle()[pri:2, instance:MiniProject.Testing@3c3d9b6b]" started-at="2025-08-14T12:28:13 IST" name="verifyOfferPageTitle" finished-at="2025-08-14T12:28:13 IST" depends-on-methods="MiniProject.Testing.homePage" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOfferPageTitle -->
+        <test-method signature="verifyBannerText()[pri:3, instance:MiniProject.Testing@3c3d9b6b]" started-at="2025-08-14T12:28:13 IST" name="verifyBannerText" finished-at="2025-08-14T12:28:14 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBannerText -->
+        <test-method signature="packageList()[pri:4, instance:MiniProject.Testing@3c3d9b6b]" started-at="2025-08-14T12:28:14 IST" name="packageList" finished-at="2025-08-14T12:28:15 IST" duration-ms="1325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packageList -->
+        <test-method signature="priceList()[pri:5, instance:MiniProject.Testing@3c3d9b6b]" started-at="2025-08-14T12:28:15 IST" name="priceList" finished-at="2025-08-14T12:28:18 IST" duration-ms="2739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceList -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MiniProject.Testing@3c3d9b6b]" started-at="2025-08-14T12:28:18 IST" name="closeDriver" finished-at="2025-08-14T12:28:27 IST" duration-ms="9065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- MiniProject.Testing -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2025-08-14T12:27:29 IST" name="ChromeTest" finished-at="2025-08-14T12:28:42 IST" duration-ms="73213">
+      <class name="MiniProject.Testing">
+        <test-method is-config="true" signature="createdriver(java.lang.String,java.lang.String)[pri:0, instance:MiniProject.Testing@3b0090a4]" started-at="2025-08-14T12:27:29 IST" name="createdriver" finished-at="2025-08-14T12:27:45 IST" duration-ms="15360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.yatra.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createdriver -->
+        <test-method signature="homePage()[pri:1, instance:MiniProject.Testing@3b0090a4]" started-at="2025-08-14T12:27:45 IST" name="homePage" finished-at="2025-08-14T12:28:30 IST" duration-ms="45343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method signature="verifyOfferPageTitle()[pri:2, instance:MiniProject.Testing@3b0090a4]" started-at="2025-08-14T12:28:30 IST" name="verifyOfferPageTitle" finished-at="2025-08-14T12:28:30 IST" depends-on-methods="MiniProject.Testing.homePage" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOfferPageTitle -->
+        <test-method signature="verifyBannerText()[pri:3, instance:MiniProject.Testing@3b0090a4]" started-at="2025-08-14T12:28:30 IST" name="verifyBannerText" finished-at="2025-08-14T12:28:30 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBannerText -->
+        <test-method signature="packageList()[pri:4, instance:MiniProject.Testing@3b0090a4]" started-at="2025-08-14T12:28:30 IST" name="packageList" finished-at="2025-08-14T12:28:32 IST" duration-ms="1272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- packageList -->
+        <test-method signature="priceList()[pri:5, instance:MiniProject.Testing@3b0090a4]" started-at="2025-08-14T12:28:32 IST" name="priceList" finished-at="2025-08-14T12:28:34 IST" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceList -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:MiniProject.Testing@3b0090a4]" started-at="2025-08-14T12:28:34 IST" name="closeDriver" finished-at="2025-08-14T12:28:42 IST" duration-ms="8249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- MiniProject.Testing -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

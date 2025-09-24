@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="EdgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https://www.yatra.com/"/>
+    <classes>
+      <class name="MiniProject.Testing">
+        <methods>
+          <include name="createdriver"/>
+          <include name="verifyBannerText"/>
+          <include name="packageList"/>
+          <include name="verifyOfferPageTitle"/>
+          <include name="closeDriver"/>
+          <include name="homePage"/>
+          <include name="priceList"/>
+        </methods>
+      </class> <!-- MiniProject.Testing -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.yatra.com/"/>
+    <classes>
+      <class name="MiniProject.Testing">
+        <methods>
+          <include name="createdriver"/>
+          <include name="verifyBannerText"/>
+          <include name="packageList"/>
+          <include name="verifyOfferPageTitle"/>
+          <include name="closeDriver"/>
+          <include name="priceList"/>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- MiniProject.Testing -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
