@@ -9,16 +9,16 @@ This project is a comprehensive automation framework built using **Java**, **Sel
 **Objective**: Automate the verification of each page in the website, retrieving details of package and vanvigating through each features in Yatra.com .
 
 ### Key Requirement:
-   **Identify Car Wash Services**:
-      Validate the Offers Page 
-      Checks the Banner Text is displayed or not 
-      Capture Screenshot
+ 
+      Validate the Offers Page - 
+      Checks the Banner Text is displayed or not - 
+      Capture Screenshot - 
       Retrieve details of 5 Holiday package
 ---
 
 ## 🧪 Test Scenarios
 
-### ✅ Scenario: Car Wash to Gym Navigation
+### ✅ Scenario: Navigation through the Website
 - Launch any browser as per the user input ex: Chrome/Firefox (Cross-Browser Testing).
 - Open the online shopping website ex: https://www.yatra.com/.
 - Navigate to home page of the application and click “Offers” link.
